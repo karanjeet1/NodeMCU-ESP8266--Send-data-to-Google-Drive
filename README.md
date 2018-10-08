@@ -12,5 +12,3 @@ In this System, we are measuring current consumption of any Electronic Appliance
     	    
 5. After this open latest version of Arduino IDE code(*.ino) and uplode it in the ESP Module (NodeMCU Base ver 1.0).
 6. Connect your Current detecting sensor on **Pin-D4(GPIO5)**.
-     
-@ karanjeet1
