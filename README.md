@@ -1,7 +1,7 @@
 # NodeMCU-ESP8266--Send-data-to-Google-Drive
 In this project, we can send data from **ESP Module(NodeMCU Base ver 1.0)**, which can be internally processed data or data from any external source.Those data values are then send to anyone's personal Google Drive account in the form of Spreadsheets.
 
-## Installation
+## Process:
 1. Log in into your google drive and create a new Blank Spreadsheet.
 2. Enter details of the tags into header row, such as: Time, Output1, Output2 and at last save it.
 3. Then select Tools->Script editor. A new Script file will be opened, rename it with the same filename that you gave to your Spreadsheet. 
