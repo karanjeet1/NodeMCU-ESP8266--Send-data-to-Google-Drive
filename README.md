@@ -8,8 +8,9 @@ In this project, we can send data from **ESP Module(NodeMCU Base ver 1.0)**, whi
 4. Copy the code in the file **"Cloud_scriptfile.txt"** and paste it into your Script file. 
 5. Replace sheet_id wriiten in the code by the Sheet ID of your Spreadsheet.
     https://docs.google.com/spreadsheets/d/**<SHEET_ID>**/edit#gid=0
+    >  **Example:** https://docs.google.com/spreadsheets/d/16THOEUV1ysHeNltS_Kd1HEUV1yslhJw9GA/edit#gid=0
 6. Then save your script and select Publish/Deploy as web app. After Deploying, you will got a link like this: https://script.google.com/macros/s/**<SCRIPT_ID>**/exec?
     **NOTE:** Select option Anyone or Anyone, even anonymous.
-    	    
+    > **Example:** https://script.google.com/macros/s/KHIOJjioJMJijxk82732iHj5LnScQDd0NrPH_E1uV0HU/exec?  	    
 7. After this open latest version of **Arduino IDE code(*.ino)** and uplode it in the ESP Module (NodeMCU Base ver 1.0).
 8. If you want to take input from any external device then connect that device onto **Pin-D4(GPIO5)**. Otherwise, just send values by using **Send(x,y);**.
